@@ -31,10 +31,14 @@ html, body {
   height: 100%;
 }
 
-/* 100% Pure Pitch Black Background, no scrollbar on standard displays */
+/* Full-frame background image: "contain" keeps the whole picture visible (never cropped),
+   anchored to the top; any leftover space is filled with pitch black */
 body {
   background-color: #000000 !important;
-  background-image: none !important;
+  background-image: url("img.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center top !important;
+  background-size: contain !important;
   color: var(--text-main);
   font-family: 'Rajdhani', 'Segoe UI', system-ui, -apple-system, sans-serif;
   display: flex;

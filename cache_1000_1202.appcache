@@ -1,11 +1,12 @@
 CACHE MANIFEST
-# rev 20260922-gameshop-fw1000-1202-v1
+# rev 20260924-gameshop-fw1000-1202-v2
 
 CACHE:
 index.html
 cache_loader_1000_1202.html
 style.css
 gameshop_animated.gif
+img.jpg
 icon0.png
 int64.js
 ps4_offsets.js
