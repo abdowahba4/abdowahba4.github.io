@@ -111,7 +111,7 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    ص.innerHTML = "GoldHEN v2.4b18.12 Loaded ...";
+    ص.innerHTML = "";
     logger.info("===END===");
   } catch (e) {
     msgs.innerHTML = "Failed to Load! Restart Your Console ...";
